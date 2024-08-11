@@ -17,6 +17,7 @@
 }
 
 body {
+  font-family: var(--font-inter);
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -25,6 +26,11 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+h2 {
+  font-family: var(--font-poppins);
+}
+
 
 @layer utilities {
   .text-balance {
