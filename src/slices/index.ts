@@ -3,5 +3,6 @@
 import dynamic from "next/dynamic";
 
 export const components = {
+  alternate_grid: dynamic(() => import("./AlternateGrid")),
   hero: dynamic(() => import("./Hero")),
 };
